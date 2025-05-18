@@ -1,6 +1,10 @@
 # 20 Common Tier-1 IT Support Issues (Windows, Office 365, AD, UniFi)
 
-1. Forgotten Password or Account Lockout
+---
+
+# Table of Contents
+
+1. [Forgotten Password or Account Lockout](#forgotten-password-or--account-lockout)
 2.
 3.
 4.
