@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-1. [ Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
+- [ Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
 2.
 3.
 4.
