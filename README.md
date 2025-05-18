@@ -25,6 +25,8 @@
 19.
 20.
 
+---
+
 ### 1.) Forgotten Password or Account Lockout
 
 **Description:** Users often forget their Windows/AD passwords or get locked out after too many failed attempts. They cannot log into their computer or Office 365 account until the password is reset or the account unlocked. This is one of the most frequent help desk requests.
@@ -50,6 +52,8 @@
 * **Password Reset/Unlock Success:** The user gains access with the new password. Instruct them to memorize the new password (or use a password manager) and note the company’s password policy (length, complexity, expiration). This resolves the ticket in most cases.
 * **Account Still Unaccessible:** If the user still cannot log in (e.g., password reset not taking effect, or they’re using the correct new password but it fails), double-check for typos and ensure their account isn’t **disabled** or under any restriction. If everything looks normal but login fails, **escalate to Tier 2** – there could be an underlying AD replication issue or a deeper account problem.
 * **Frequent Lockouts:** If the account keeps locking after reset, there may be a stuck service or device with an old password (e.g. email on phone). Advise the user to update passwords on all devices. For persistent lockout problems, escalate for further AD troubleshooting (log review) to find the source of bad login attempts.
+
+---
 
 ## 2. Unable to Login to Windows (Non-Password Issues)
 
