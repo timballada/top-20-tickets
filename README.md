@@ -27,7 +27,7 @@
 
 ---
 
-### 1.) Forgotten Password or Account Lockout
+### Forgotten Password or Account Lockout
 
 **Description:** Users often forget their Windows/AD passwords or get locked out after too many failed attempts. They cannot log into their computer or Office 365 account until the password is reset or the account unlocked. This is one of the most frequent help desk requests.
 
