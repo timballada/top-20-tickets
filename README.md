@@ -5,25 +5,7 @@
 # Table of Contents
 
 - [ Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
+- [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
 
 ---
 
@@ -55,7 +37,7 @@
 
 ---
 
-## 2. Unable to Login to Windows (Non-Password Issues)
+### Unable to Login to Windows (Non-Password Issues)
 
 **Description:** The user has the correct password but still cannot log into their Windows system. They might encounter errors like “The user profile service failed the logon” (profile corruption) or “Trust relationship between this workstation and the primary domain failed” (domain trust issue). In a corporate domain environment, these login errors are a common support issue beyond just forgotten passwords.
 
@@ -81,6 +63,8 @@
 * **Profile Fix Applied:** For a corrupted user profile, creating a fresh profile usually resolves the login issue. The user can then sign in successfully, though they may need to reconfigure some personal settings. Any files from the old profile can be restored from the backup. This fix addresses the immediate problem and the ticket can be closed after verification.
 * **Domain Trust Restored:** Rejoining the PC to the domain (or fixing network issues so it can contact the domain) resolves “trust relationship” errors. The user can log in normally with domain credentials. Document that the machine account was reset.
 * **Persistent or Complex Issues:** If the user still cannot log in, it could indicate deeper issues (like Windows OS corruption or group policy issues). In such cases, Tier 2 might use a tool to repair Windows, or re-image the PC if needed. Always ensure the user’s data is safe (backed up) before such drastic steps. Keep the user informed and, if it’s an extended fix, provide a loaner machine if possible.
+
+---
 
 ## 3. Outlook Email Sending/Receiving Problems (Office 365)
 
