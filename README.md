@@ -67,7 +67,7 @@
 
 ---
 
-### Outlook Email Sending/Receiving Problems (Office 365)
+### Outlook Email Sending or Receiving Problems (Office 365)
 
 **Description:** Email issues, such as Outlook not sending or receiving messages, are high-priority because they disrupt business communication. Users may report Outlook showing “Disconnected” or not updating inbox, or that emails are stuck in the Outbox. Such email woes can severely impact productivity. Common causes include Outlook client issues, network problems, or service outages in Office 365.
 
