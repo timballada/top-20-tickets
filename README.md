@@ -8,6 +8,10 @@
 - [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
 - [Outlook Email Sending or Receiving Problems (Office 365)](#outlook-email-sending-or-receiving-problems-office-365)
 - [Microsoft Teams / Skype Issues (Meetings and Audio / Video)](#microsoft-teams-or-skype-issues-meetings-and-audio-or-video)
+- [Printer not Printing](#printer-not-printing)
+- [Wi-Fi Connectivity Issues](#wi-fi-connectivity-issues)
+- [Wired Network (Ethernet) Connectivity Issues](#wired-network-ethernet-connectivity-issues)
+- [Slow Computer Performance](#slow-computer-performance)
 
 ---
 
@@ -135,7 +139,7 @@
 
 ---
 
-## 5. Printer Not Printing
+### Printer Not Printing
 
 **Description:** Printer issues are a daily headache in many offices. The user might report nothing happens when they print, or the document is stuck in the queue. They could see an offline printer status or error messages on the printer (like paper jam, out of toner). In a Windows/AD environment, printers can be local or networked; either way, printing problems are very common and frustrating for users who need their documents.
 
@@ -167,7 +171,9 @@
 * **Hardware Supply Issues:** If the resolution was adding paper or replacing toner, educate the user on any indicator they can watch for (many printers show a low-toner warning) so they know it was a supply issue. The printer should function after supplies are replenished.
 * **Next Steps if Unresolved:** If escalated, the next team might discover a need to reinstall the printer driver on the user’s PC or fix a print server issue. They might also identify a defective printer that needs replacement. Keep the user updated; if printing is mission-critical, consider offering an alternative printer in the meantime. Once fixed, verify by printing a test page with the user and close the ticket.
 
-## 6. Wi-Fi Connectivity Issues
+---
+
+### Wi-Fi Connectivity Issues
 
 **Description:** Users connecting via Wi-Fi may report they can’t connect to the network or they have a connection but no internet access. In an office with Ubiquiti UniFi wireless, common complaints include dropped connections or “limited connectivity”. Network connectivity disruptions – especially wireless dropouts or slow Wi-Fi – can greatly reduce productivity. This issue can be device-specific or widespread if an access point is down.
 
@@ -200,7 +206,9 @@
 * **Infrastructure Problems:** If an AP was overloaded or malfunctioning (e.g., clients connected but no IP given), the network team might reboot that AP or adjust its settings. The resolution in that case is on the backend; inform the user that the Wi-Fi access point was reset and to try again. They should connect fine afterward.
 * **Escalation Outcome:** In scenarios requiring escalation, the final fix might involve updating firmware on UniFi devices, adding more access points to cover dead zones, or other network changes. Once those are implemented, follow up with the user to ensure their connectivity is stable. If resolved, close the ticket, noting the network team’s action (for example, “AP in conference room was replaced, issue resolved”).
 
-## 7. Wired Network (Ethernet) Connectivity Issues
+---
+
+### Wired Network (Ethernet) Connectivity Issues
 
 **Description:** A user connected via Ethernet cable reports no network or internet access. This could manifest as a red X or globe icon on the network status, or they cannot reach any internal resources or websites. Unlike Wi-Fi, a wired connection issues often relate to physical cabling, switch port problems, or IP/DHCP issues. Network connectivity disruptions, whether wired or wireless, need urgent attention as they prevent work.
 
@@ -232,7 +240,9 @@
 * **Alternate Access:** If the immediate solution was to use Wi-Fi, ensure that’s only temporary if the wired issue persists. Wired issues often get escalated, but once resolved (by a port fix or replacing a faulty wall jack, etc.), follow up to have the user revert to wired and test. Wired network usually is preferred for stable connection, so confirm and then close out.
 * **Escalation Outcome:** Sometimes the resolution is beyond Tier 1 (e.g., replacing a faulty network switch). In that event, coordinate with facilities or network admins. Once done, verify the user’s connectivity. Provide a summary in the ticket (e.g., “Network switch was replaced by Network Team; user’s connection restored”) and close after confirmation.
 
-## 8. Slow Computer Performance
+---
+
+### Slow Computer Performance
 
 **Description:** A common complaint is “my computer is running slow.” This can involve slow boot times, apps taking long to open, or system freezes. Such slow or unresponsive systems are a significant source of help desk tickets. Causes can range from insufficient hardware resources, too many background programs, malware, or even a failing disk. Tier 1 should methodically identify if it’s a general slowness or specific to certain software.
 
@@ -265,7 +275,9 @@
 * **Malware Removal:** If a virus was found and removed, the performance issue may be solved (and you’ve addressed a security problem too). After removal, monitor the system for any remaining issues. It’s resolved if the system runs normally, but remain alert if more malware symptoms appear – that might need a deeper clean or reimage.
 * **Next Steps – Hardware Upgrades:** If slowness is due to genuinely insufficient hardware, you might not “resolve” it immediately. In that case, escalate a recommendation (e.g., upgrade from 4GB to 8GB RAM, or swap HDD to SSD). In the meantime, you might adjust virtual memory or remove bloatware to help. Communicate to the user that you’ve done what you can and that you’re proposing an upgrade for a permanent fix. Keep the ticket open if needed until that is actioned, or close it with note of recommendation depending on policy.
 
-## 9. Blue Screen of Death (BSOD) / System Crash
+---
+
+### Blue Screen of Death (BSOD) / System Crash
 
 **Description:** A **Blue Screen of Death** is when Windows crashes and shows a blue error screen, often with a stop code. This indicates a critical failure (like a driver fault or hardware issue). Users typically say “my computer just crashed” or “I got a blue screen.” Most users don’t catch the specific code, as it reboots quickly. OS errors and crashes are very frustrating, and while an occasional BSOD might be a fluke, repeated ones need prompt attention to avoid data loss.
 I did not receive the two 20 lb bags of bird seed
@@ -297,7 +309,7 @@ wer
 * **System Repair:** If system files were corrupted (and SFC/DISM fixed them, or you did a System Restore), the system may become stable. Continue to have the user use the PC and check in – if no more blue screens over a couple of days, it’s likely resolved. Log that a system repair was done.
 * **Escalation:** For persistent blue screens that Tier 1 cannot resolve, the next steps could be a full OS reinstall if no root cause is found, or hardware diagnostics by Tier 2. If Tier 2 resolves it by, say, replacing the motherboard or re-imaging Windows, then that’s the final resolution. Ensure the user’s data is backed up if any drastic steps are taken. After the fix, verify with the user that the crashes have ceased, then close the ticket.
 
-## 10. Application Crashing or Not Responding
+### Application Crashing or Not Responding
 
 **Description:** Users often encounter a specific program that keeps crashing or freezing. For example, “Excel is not responding when I try to save” or “Our ERP application closes unexpectedly.” Such software glitches disrupt work. This issue may be isolated to one app while others work fine. Causes range from software bugs, corrupt user profiles or settings for the app, to insufficient resources for that application.
 
