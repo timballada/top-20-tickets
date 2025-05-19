@@ -7,7 +7,7 @@
 - [Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
 - [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
 - [Outlook Email Sending or Receiving Problems (Office 365)](#outlook-email-sending-or-receiving-problems-office-365)
-- [Microsoft Teams / Skype Issues (Meetings and Audio / Video)](#microsoft-teams-'/'-skype-issues-meetings-and-audio-'/'-video)
+- [Microsoft Teams / Skype Issues (Meetings and Audio / Video)](#microsoft-teams-or-skype-issues-meetings-and-audio-or-video)
 
 ---
 
@@ -101,7 +101,7 @@
 
 ---
 
-### Microsoft Teams '/' Skype Issues (Meetings and Audio '/' Video)
+### Microsoft Teams or Skype Issues (Meetings and Audio or Video)
 
 **Description:** Collaboration tools like **Microsoft Teams** (or Skype for Business in some environments) are essential for communication. Issues such as failing to join meetings, broken audio or video, or chat messages not sending are common. For example, a user might complain that their microphone isn’t working in Teams, or they can’t see other participants. These issues can disrupt meetings and productivity, so quick troubleshooting is important. (Teams issues can range from user device settings to broader network or service problems.)
 
