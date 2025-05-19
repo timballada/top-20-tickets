@@ -4,8 +4,9 @@
 
 # Table of Contents
 
-- [ Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
+- [Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
 - [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
+- [Outlook Email Sending/Receiving Problems (Office 365)](#outlook-email-sending-receiving-problems-office-365)
 
 ---
 
@@ -66,7 +67,7 @@
 
 ---
 
-## 3. Outlook Email Sending/Receiving Problems (Office 365)
+### Outlook Email Sending/Receiving Problems (Office 365)
 
 **Description:** Email issues, such as Outlook not sending or receiving messages, are high-priority because they disrupt business communication. Users may report Outlook showing “Disconnected” or not updating inbox, or that emails are stuck in the Outbox. Such email woes can severely impact productivity. Common causes include Outlook client issues, network problems, or service outages in Office 365.
 
@@ -96,6 +97,8 @@
 * **Password or Auth Issues:** If the user recently changed their AD password and forgot to update it in Outlook, simply re-authenticating resolves the issue. In Office 365, once credentials are correct and perhaps MFA approved, Outlook should connect.
 * **Service Outage:** If it was a Microsoft 365 service issue, the resolution comes from Microsoft’s side. The help desk’s role is to keep the user informed and provide workarounds (like OWA or mobile email) in the meantime. Once service is restored, confirm the user’s Outlook is back online.
 * **Escalation:** Should the problem persist (for example, Outlook keeps disconnecting due to a deeper network or mailbox issue), Tier 2/3 might need to analyze network traffic or server-side logs. They might also consider migrating the mailbox or other advanced fixes. Ensure the user knows that the issue is acknowledged and being worked on, even if Tier 1 cannot fix it immediately.
+
+---
 
 ## 4. Microsoft Teams / Skype Issues (Meetings and Audio/Video)
 
