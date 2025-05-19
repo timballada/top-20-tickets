@@ -7,6 +7,7 @@
 - [Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
 - [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
 - [Outlook Email Sending or Receiving Problems (Office 365)](#outlook-email-sending-or-receiving-problems-office-365)
+- [Microsoft Teams / Skype Issues (Meetings and Audio / Video)](#microsoft-teams-/-skype-issues-meetings-and-audio-video)
 
 ---
 
@@ -100,7 +101,7 @@
 
 ---
 
-## 4. Microsoft Teams / Skype Issues (Meetings and Audio/Video)
+### Microsoft Teams / Skype Issues (Meetings and Audio / Video)
 
 **Description:** Collaboration tools like **Microsoft Teams** (or Skype for Business in some environments) are essential for communication. Issues such as failing to join meetings, broken audio or video, or chat messages not sending are common. For example, a user might complain that their microphone isn’t working in Teams, or they can’t see other participants. These issues can disrupt meetings and productivity, so quick troubleshooting is important. (Teams issues can range from user device settings to broader network or service problems.)
 
@@ -131,6 +132,8 @@
 * **Software Reset:** Restarting Teams or the PC often clears up glitches. If after a restart things work (maybe an update applied), consider it resolved. If you cleared cache or reinstalled Teams, monitor if the issue reoccurs.
 * **Alternative Used:** In some cases, if a particular device (like a headset) fails, giving the user an alternative (another headset or using the laptop’s built-in mic) gets them operational while the faulty hardware is dealt with. That resolves the immediate problem, and you might follow up by replacing a defective peripheral.
 * **Escalation:** For issues that couldn’t be fixed (say the user’s account is bugged or a network QoS issue), ensure the user has a workaround (e.g., use phone for audio) and escalate. The ticket remains open for Tier 2/3 to investigate the deeper cause. They might adjust firewall settings (for network issues) or reset the user’s Teams configuration on the backend. Keep the user updated on progress.
+
+---
 
 ## 5. Printer Not Printing
 
