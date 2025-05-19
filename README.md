@@ -22,7 +22,7 @@
 - [OneDrive/SharePoint Sync Issues](#onedrive-or-sharepoint-sync-issues)
 - [Computer Will Not Power On](#computer-will-not-power-on)
 - [Monitor or Display Issues](#monitor-or-display-issues)
-- [Access or Permission Requests (Unable to Access Specific Resource)](#access-or-permission-requests-unable-to-access-specific-resources)
+- [Access or Permission Requests (Unable to Access Specific Resource)](#access-or-permission-requests-unable-to-access-specific-resource)
 - [Virus/Malware Suspected on Computer](#virus-or-malware-suspected-on-computer)
 
 ---
