@@ -6,7 +6,7 @@
 
 - [Forgotten Password or Account Lockout](#forgotten-password-or-account-lockout)
 - [Unable to Login to Windows (Non-Password Issues)](#unable-to-login-to-windows-non-password-issues)
-- [Outlook Email Sending/Receiving Problems (Office 365)](#outlook-email-sending-receiving-problems-office-365)
+- [Outlook Email Sending/Receiving Problems (Office 365)](#outlook-email-sending/receiving-problems-office-365)
 
 ---
 
