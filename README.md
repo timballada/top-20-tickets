@@ -12,6 +12,18 @@
 - [Wi-Fi Connectivity Issues](#wi-fi-connectivity-issues)
 - [Wired Network (Ethernet) Connectivity Issues](#wired-network-ethernet-connectivity-issues)
 - [Slow Computer Performance](#slow-computer-performance)
+- [Blue Screen of Death (BSOD) / System Crash](#blue-screen-of-death-bsod-or-system-crash)
+- [Application Crashing or Not Responding](#application-crashing-or-not-responding)
+- [Software Installation or Update Issues](#software-installation-or-update-issues)
+- [VPN Connection Issues](#vpn-connection-issues)
+- [Cannot Access Network Drive or Shared Folder](#cannot-access-network-drive-or-shared-folder)
+- [Email on Mobile Device Not Working](#email-on-mobile-device-not-working)
+- [Multi-Factor Authentication (MFA) Problems](#multi-factor-authentication-mfa-problems)
+- [OneDrive/SharePoint Sync Issues](#onedrive-or-sharepoint-sync-issues)
+- [Computer Will Not Power On](#computer-will-not-power-on)
+- [Monitor or Display Issues](#monitor-or-display-issues)
+- [Access or Permission Requests (Unable to Access Specific Resource)](#access-or-permission-requests-unable-to-access-specific-resources)
+- [Virus/Malware Suspected on Computer](#virus-or-malware-suspected-on-computer)
 
 ---
 
@@ -277,7 +289,7 @@
 
 ---
 
-### Blue Screen of Death (BSOD) / System Crash
+### Blue Screen of Death (BSOD) or System Crash
 
 **Description:** A **Blue Screen of Death** is when Windows crashes and shows a blue error screen, often with a stop code. This indicates a critical failure (like a driver fault or hardware issue). Users typically say “my computer just crashed” or “I got a blue screen.” Most users don’t catch the specific code, as it reboots quickly. OS errors and crashes are very frustrating, and while an occasional BSOD might be a fluke, repeated ones need prompt attention to avoid data loss.
 I did not receive the two 20 lb bags of bird seed
@@ -308,6 +320,8 @@ wer
 * **Removed Faulty Hardware:** If a particular device (e.g., a bad docking station or USB device) is causing crashes, not using it (or replacing it) resolves the BSOD. For instance, if a RAM stick is bad, removing/replacing it stops memory errors. This resolution might involve hardware service which is usually done by Tier 2, but Tier 1 plays a role in identifying the suspect.
 * **System Repair:** If system files were corrupted (and SFC/DISM fixed them, or you did a System Restore), the system may become stable. Continue to have the user use the PC and check in – if no more blue screens over a couple of days, it’s likely resolved. Log that a system repair was done.
 * **Escalation:** For persistent blue screens that Tier 1 cannot resolve, the next steps could be a full OS reinstall if no root cause is found, or hardware diagnostics by Tier 2. If Tier 2 resolves it by, say, replacing the motherboard or re-imaging Windows, then that’s the final resolution. Ensure the user’s data is backed up if any drastic steps are taken. After the fix, verify with the user that the crashes have ceased, then close the ticket.
+
+---
 
 ### Application Crashing or Not Responding
 
@@ -342,7 +356,9 @@ wer
 * **Workaround & Escalation:** If a full fix isn’t immediate, sometimes giving the user a workaround stops the bleeding. For instance, “Excel keeps crashing with this one file – as a workaround, split the file into two smaller ones or use a different PC that has more memory.” These are temporary. Meanwhile, escalate to get a proper resolution (e.g., more RAM, or file cleaned by the application team).
 * **No reoccurrence:** If the app crash was a one-time event and cannot be reproduced, it might have been a fluke. In such cases, after basic checks, advise the user to monitor and call back if it happens again. Many times, a random crash isn’t reported again. You can tentatively close the ticket, noting no issues found now, and that they will reopen if it recurs. If it does recur, then escalate with the pattern of frequency.
 
-## 11. Software Installation or Update Issues
+---
+
+### Software Installation or Update Issues
 
 **Description:** Tier 1 frequently handles requests where a user needs a new software installed, or an installation is failing with errors. This category includes missing software, failed installs, or updates that won’t apply. Such “software installation and upgrade headaches” are common. In a managed environment, users often don’t have admin rights, so they can’t install software themselves. This becomes a ticket for IT to either push the software or guide through the process.
 
@@ -376,7 +392,9 @@ wer
 * **Scheduled or Deferred:** Sometimes, if a user requests a non-standard software, Tier 1 might not install it immediately (especially if not approved). In that case, the resolution is coordinating approval and scheduling installation. E.g., “Software X was approved by manager, and installed via IT on date Y.” Make sure the user is aware of the timeline. After installation, verify it runs. Then close the ticket noting the approvals.
 * **Escalation Outcomes:** If escalated (for example, a complex database client needed configuration), Tier 2/3 might complete the install. The resolution to the user is the same – they now have a working program – but note in the ticket if any special config was done. Ensure any installation media or documentation gets updated if this was a new issue.
 
-## 12. VPN Connection Issues
+---
+
+### VPN Connection Issues
 
 **Description:** When working remotely, users often rely on a **VPN** (Virtual Private Network) to access corporate resources. Common VPN issues include inability to connect to the VPN server, frequent disconnects, or not reaching internal sites even when connected. As remote work increases, “VPN not working” tickets have become more frequent. These issues can be due to incorrect login, network problems, or configuration issues on either the client or server side.
 
@@ -413,7 +431,9 @@ wer
 * **Workarounds:** If no immediate fix, sometimes instructing the user to try a different network (some home ISPs or countries might block certain VPN protocols) can help. For instance, “If you’re on hotel Wi-Fi and VPN fails, try using your phone’s hotspot.” That might get them connected in the moment. Long-term, the solution might be implementing an alternative VPN method (like SSL VPN on port 443 which is usually open). Workarounds are not final resolutions, but if one was used, mention it and that the permanent fix is in progress.
 * **Follow-up:** For recurring VPN issues (e.g., connects but drops often), monitor patterns. It could be the user’s ISP instability. You might advise them to contact their ISP or try a different router. That goes beyond typical IT support, but sometimes is necessary to mention. If multiple users in a region have VPN problems, escalate to see if a new VPN endpoint closer to them or different configuration is needed. After resolution, ensure the user is satisfied that their remote access is reliable.
 
-## 13. Cannot Access Network Drive or Shared Folder
+---
+
+### Cannot Access Network Drive or Shared Folder
 
 **Description:** In corporate environments, users often access files on shared network drives (e.g., an SMB file server or a mapped drive letter like S: or Q:). A common issue is “I can’t access my network drive” or “I get access denied to a folder I used to have.” This falls under access issues to shared resources. It could be due to missing permissions, the drive not being mapped properly, or the server being down. It’s a frequent request for help desk to restore connectivity to shared files.
 
@@ -447,7 +467,9 @@ wer
 * **Server Issue Resolved:** If an outage was involved (file server was down), once IT brought it back online, all users regain access. Communicate to the user “The server was restarted and is now accessible, please try again.” They confirm it’s working – ticket closed. In such cases, often multiple tickets come in; linking them to the incident is useful.
 * **Escalation Outcome:** In a complex scenario (maybe a DFS path issue or corruption of the share permissions), Tier 2/3 might handle it. Once they report it fixed (maybe they repaired DFS referrals or reset NTFS permissions), verify the user’s access. Then explain to the user that the technical issue was resolved and they should be good to go. Document the fix (like “Rebuilt permissions on folder X” or “AD group membership updated”).
 
-## 14. Email on Mobile Device Not Working
+---
+
+### Email on Mobile Device Not Working
 
 **Description:** Many users access their Office 365 email on mobile devices (through Outlook app or native mail apps). A common issue is email not syncing or new messages not appearing on their phone. They might say “my phone isn’t getting emails anymore” or “I can’t set up work email on my new phone.” These issues can arise from password changes, device management policies, or mail app configuration problems. In a mobile world, such connectivity issues are common.
 
@@ -480,7 +502,9 @@ wer
 * **Account Issues:** If we found the user had no Exchange Online license or their account was blocked for some reason (less likely specific to mobile, but possible), once that’s fixed (license assigned, block removed), their phone email works. This resolution is more of an account administration fix. Ensure to close the loop by verifying mobile sync.
 * **Follow-up:** If the user got a new device, ensure they also transfer other needed settings (like contacts or 2FA apps) – not directly our issue, but related. Once mail is confirmed working, advise them on any company BYOD policy (like if they leave, IT might wipe corporate data). Closing the ticket, mention briefly what was done (e.g., “Re-added mail account on iPhone, sync restored”). If the problem tends to repeat (like with every password change), consider sending a tip to all users on how to update mobile email after a password change to preempt tickets.
 
-## 15. Multi-Factor Authentication (MFA) Problems
+---
+
+### Multi-Factor Authentication (MFA) Problems
 
 **Description:** Many organizations use **MFA** for added security on accounts, particularly for Office 365 sign-ins or VPN. Users may face issues like not receiving the authentication code, their authenticator app not prompting, or being locked out because they got a new phone. These MFA snags are common support issues because if MFA fails, the user cannot log in at all. It’s critical to help them regain access while keeping security intact.
 
@@ -513,7 +537,9 @@ wer
 * **Temporary Bypass:** If we gave a one-day bypass (like disabled MFA for a day), the user can log in now. Then we ensure before re-enabling that they set up the new device. This is resolved but requires follow-up: make sure to re-secure the account after the bypass period. Typically, you wouldn’t close the ticket until MFA is fully operational again on their account.
 * **Escalation/Security Team:** In rare complicated scenarios (maybe user is VIP and out of country without their device, etc.), the security team might use special procedures. Once they handle it, the user gains access. The resolution might be them using a different identity proof to authenticate. From a help desk perspective, document that proper security processes were followed and resolved. The user should now have MFA working (possibly on a new device). Close the ticket noting what was done (without exposing sensitive security details in the ticket, just “MFA reset per security admin” suffices).
 
-## 16. OneDrive/SharePoint Sync Issues
+---
+
+### OneDrive or SharePoint Sync Issues
 
 **Description:** Users working with Office 365’s OneDrive or SharePoint (via **OneDrive Sync client**) may complain that files aren’t syncing. They might see a red X on the OneDrive icon, or certain files not updating to the cloud. Common issues include files stuck uploading, conflicts creating duplicate files, or “not signed in” errors. These “cloud drive” problems are frequent, as OneDrive is widely used for file backup and collaboration. Sync hiccups can be due to invalid file names, large files, or authentication glitches. (OneDrive issues are indeed a common problem with various causes.)
 
@@ -552,7 +578,9 @@ wer
 * **Handled via Escalation:** If the sync issue was due to something like a bug or needed a tenant setting (for instance, one user’s OneDrive was never provisioned correctly), Tier 2/3 might fix it behind the scenes (maybe re-provision the OneDrive site). Once done, the user sets it up and it works. So the resolution is technical but from user perspective, now it’s working. Document what was done if relevant for future reference.
 * **Education:** Many sync issues are user-side, so a bit of education can prevent repeats. E.g., teach the user not to place Outlook PST files in OneDrive (they constantly change and don’t sync well), or avoid extremely deep folder structures. Mention that OneDrive status icons (the green check, blue sync, red x) give clues, and they can click them for info. Empowering the user might reduce future tickets.
 
-## 17. Computer Will Not Power On
+---
+
+### Computer Will Not Power On
 
 **Description:** A user says “My computer won’t turn on at all.” This is a hardware issue where the PC shows no signs of life – no lights, no fans, nothing on screen. It’s a common desk-side support ticket. Causes range from something as simple as an unplugged power cord (surprisingly common) to a failed power supply or battery. Tier 1’s job is to triage and attempt simple fixes, but often this may get handed to hardware support if parts need replacement. Nonetheless, basic troubleshooting can save a lot of time if it’s just a loose cable.
 
@@ -586,7 +614,9 @@ wer
 * **Loaner and Follow-up:** If the user was given a temporary PC while theirs is fixed, that’s noted. The ticket might remain open until the original PC is repaired and returned. Once that’s done and user is fully back on their machine, then you close it out. Ensure everything is working on the returned machine (no other surprises).
 * **Preventive Tip:** Advise the user to use a UPS or good surge protector especially if they are in an area with electrical issues (for desktops). For laptops, if they often drain battery fully, remind them to plug in – though modern laptops are fine being on battery. Not much preventive advice beyond general care. If the cause was something like “coffee spill last night” (which user may or may not admit), then the resolution might end up as a new device and advice on spill-proof keyboards, etc.
 
-## 18. Monitor or Display Issues
+---
+
+### Monitor or Display Issues
 
 **Description:** Display problems are a common hardware complaint. Examples: “My monitor won’t turn on,” “My second screen is not detected,” or “The display is flickering/no signal.” This can be due to the monitor being off, bad cables, incorrect display settings, or a faulty graphics output. Given many users have dual monitors, issues like one not working or wrong configuration arise often. These fall under hardware & peripheral breakdowns, but are usually straightforward to troubleshoot.
 
@@ -621,7 +651,9 @@ wer
 * **Escalation Outcome:** For complex multi-monitor setups (like 3-4 monitors) needing special config, Tier 2 might have had to configure display settings or special hardware. Once done, confirm with the user that all monitors are arranged and functioning as they want (e.g., correct primary monitor, resolutions correct). Then close the ticket.
 * **User Guidance:** After resolution, sometimes users ask how to do certain things, like change which monitor is primary or how to pivot orientation. Show them in Display Settings how to rearrange monitors and choose primary, etc. A little training ensures they’re comfortable and might solve minor layout issues themselves in future.
 
-## 19. Access or Permission Requests (Unable to Access Specific Resource)
+---
+
+### Access or Permission Requests (Unable to Access Specific Resource)
 
 **Description:** Often tickets are not about something “broken” but about a user needing access to a system or file they currently can’t reach. For example, “I need access to the Finance folder” or “I cannot open the HR database – permission denied.” This is a common managed IT task: managing user permissions and roles. Tier 1 frequently handles the initial request and coordinates approval and implementation. It’s important to follow company policy for granting access, since it ties into security.
 
@@ -659,7 +691,9 @@ wer
 * **Pending:** If waiting on approval or if it requires a change window (some orgs only do permission changes at certain times if on secure systems), keep the ticket open and inform the user of the timeline. The resolution happens once the change is implemented and user confirms access. If any delay, maintain communication. Once done, mark resolved.
 * **Process Improvement:** If you see many similar requests (like every new hire in Dept X needs manual addition to Group Y), maybe raise a suggestion that onboarding procedures include that group assignment. This is outside the individual ticket, but worth noting to improve efficiency. Over time, mature organizations automate such access via role-based access control. Until then, Tier 1 will handle these one by one.
 
-## 20. Virus/Malware Suspected on Computer
+---
+
+### Virus or Malware Suspected on Computer
 
 **Description:** A user might report “I have a virus” or “strange pop-ups are appearing” on their Windows PC. Alternatively, IT might be alerted to a machine behaving suspiciously. Virus and malware incidents are critical because they can lead to data loss or breaches. Common signs: frequent browser pop-ups, unknown programs asking for money (ransomware), computer extremely slow (if malware is using resources), or the antivirus detecting/quarantining threats. Tier 1 needs to respond quickly: contain and clean if possible, and know when to escalate to security specialists.
 
